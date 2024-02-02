@@ -1,5 +1,6 @@
 import os  
 import io  
+import time
 
 def split_file(big_file_path, small_file_pathes_path, chunk_size=1024*1024*20):  
     # 打开大文件  
@@ -49,6 +50,7 @@ def merge_files(file_paths_path, output_path):
     
     # 删除临时小文件
     for path in file_paths:
+        time.sleep(0.5)
         os.remove(path)
     
     os.remove(file_paths_path) 
