@@ -1,5 +1,3 @@
-# sentence-bert-fine-turning
-A sentence level multi-lingual embedding pre-trained model based on BERT was download from https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2 for a further fine-turning on million level chinese train-dataset. now posted the fine-turning model.
 # how to use this fine-turing pre-trained model  
 ## step one
 Due to the limitation of one file size which must less than 25 MB in github repository. we choose to cut the big model file into many small files for avoiding this problem.
